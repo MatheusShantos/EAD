@@ -115,10 +115,10 @@ CREATE TABLE `modulos` (
 
 INSERT INTO `modulos` (`id`, `id_curso`, `nome`)
 VALUES
-	(1,1,'BÃ¡sico'),
-	(2,1,'IntermediÃ¡rio'),
-	(3,1,'AvanÃ§ado'),
-	(6,1,'Super AvanÃ§ado');
+	(1,1,'Básico'),
+	(2,1,'Intermediário'),
+	(3,1,'Avançado'),
+	(6,1,'Super Avançado');
 
 DROP TABLE IF EXISTS `questionarios`;
 
@@ -136,8 +136,8 @@ CREATE TABLE `questionarios` (
 
 INSERT INTO `questionarios` (`id`, `id_aula`, `pergunta`, `opcao1`, `opcao2`, `opcao3`, `opcao4`, `resposta`)
 VALUES
-	(1,4,'Qual a pergunta? 2','Op122','Op23333','Op35555','Op41111',4),
-	(2,9,'Pergunta de teste','Opcoao1','copaosr2','aposri3','apsori4',3);
+	(1,4,'Qual a pergunta? 2','Opção2','Opção3','Opção5','Opção',4),
+	(2,9,'Pergunta de teste','Opção1','Opção2','Opção3','Opção4',3);
 
 DROP TABLE IF EXISTS `usuarios`;
 
