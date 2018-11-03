@@ -52,6 +52,7 @@ VALUES
 	(7,3,1,3,'video'),
 	(8,6,1,1,'video'),
 	(9,1,1,3,'poll');
+  
 
 DROP TABLE IF EXISTS `cursos`;
 
@@ -66,12 +67,12 @@ CREATE TABLE `cursos` (
 INSERT INTO `cursos` (`id`, `nome`, `imagem`, `descricao`)
 VALUES
 	(1,'PHP','php.jpg','Curso para desenvolvimento de sites e sistemas.'),
-	(2,'HTML','html.jpg',NULL),
-	(3,'JAVASCRIPT','javascript.jpg',NULL),
-	(4,'CSS','503e41d1aa116efa266c7467dcd24a68.jpg','Esse curso faz CSS parecer facil.'),
-	(6,'jQuery','0676d836af8b182c6d38547f8bb31219.jpg',''),
-	(7,'Swift','swift.jpg',NULL),
-	(8,'Android','782d69edbb6949f7d81a54828d84768d.jpg','');
+	(2,'HTML','html.jpg','Curso para desenvolvimento de páginas web'),
+	(3,'JAVASCRIPT','javascript.jpg', 'Curso de programação na linguagem javascript'),
+	(4,'CSS','503e41d1aa116efa266c7467dcd24a68.jpg','Curso de estilização de páginas web'),
+	(6,'jQuery','0676d836af8b182c6d38547f8bb31219.jpg','Curso de programação com jQuery'),
+	(7,'Swift','swift.jpg','Curso de programação na linguagem javascript'),
+	(8,'Android','782d69edbb6949f7d81a54828d84768d.jpg','Curso de programação para Android');
 
 DROP TABLE IF EXISTS `duvidas`;
 
@@ -170,4 +171,4 @@ VALUES
 	(3,3,'Aula 3',NULL,'178300706'),
 	(4,5,'Aula 4',NULL,'178300706'),
 	(6,7,'Aula 6',NULL,'178300706'),
-	(7,8,'Aula Teste 2','','');
+	(7,8,'Aula Teste 2','','178300706');

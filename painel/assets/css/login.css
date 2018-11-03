@@ -1,0 +1,39 @@
+	body {
+
+		margin:0;
+		background-color:#333
+	}
+
+	form {
+			width:300px;
+			height:300px;
+			background-color:#B5B5B5;
+			margin:auto;
+			margin-top:100px;
+			padding:20px;
+			border-radius:10px;
+			box-shadow: -10px 10px 10px #FFD700;
+		}
+		input {
+			width:300px;
+			padding:15px;
+			font-size:14px;
+			border:1px solid #CCC;
+			border-radius:10px;
+			background-color:#FFFF;
+		}
+
+		#button{
+			background-color:#FFD700;
+			border-radius:10px;
+			color: #FFF;
+
+		}
+
+		h2{
+			color:#FFF;
+		}
+
+		h4{
+			color:#FFF;
+		}

@@ -1,33 +1,19 @@
 <html>
 	<head>
 		<title>LOGIN - EAD</title>
-		<style type="text/css">
-		form {
-			width:300px;
-			height:300px;
-			background-color:#DDD;
-			margin:auto;
-			margin-top:30px;
-			padding:20px;
-			border-radius:10px;
-		}
-		input {
-			width:300px;
-			padding:15px;
-			font-size:14px;
-			border:1px solid #CCC;
-		}
-		</style>
+		<link rel="stylesheet" href="<?php echo BASE; ?>assets/css/login.css" />
 	</head>
 	<body>
 		<form method="POST">
-			<h2>Login do Painel</h2>
+			<center id="text-color"><h2>Login - Painel</h2></center>
 
 			<input type="email" name="email" placeholder="E-mail" /><br/><br/>
 
-			<input type="password" name="senha" placeholder="******" /><br/><br/>
+			<input type="password" name="senha" placeholder="Senha" /><br/><br/>
 
-			<input type="submit" value="Entrar" />
+			<input id="button" type="submit" value="Entrar" />
 		</form>
+
+		<center><h4>Fast Development</center></h4></center>
 	</body>
 </html>
