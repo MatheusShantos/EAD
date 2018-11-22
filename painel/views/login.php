@@ -1,11 +1,11 @@
 <html>
 	<head>
 		<title>LOGIN - EAD</title>
-		<link rel="stylesheet" href="<?php echo BASE; ?>assets/css/login.css" />
+		<link rel="stylesheet" href="<?php echo BASE; ?>assets/css/login_professor.css" />
 	</head>
 	<body>
 		<form method="POST">
-			<center id="text-color"><h2>Login - Painel</h2></center>
+			<center id="text-color"><h2>Login do Professor</h2></center>
 
 			<input type="email" name="email" placeholder="E-mail" /><br/><br/>
 

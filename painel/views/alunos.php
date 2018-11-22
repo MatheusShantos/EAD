@@ -10,7 +10,7 @@
 	</tr>
 	<?php foreach($alunos as $aluno): ?>
 	<tr>
-		<td><?php echo $aluno['nome']; ?></td>
+		<td align="center"><?php echo $aluno['nome']; ?></td>
 		<td align="center"><?php echo $aluno['qtcursos']; ?></td>
 		<td width="200">
 			<a href="<?php echo BASE; ?>alunos/editar/<?php echo $aluno['id']; ?>">Editar Aluno</a> - 
