@@ -11,10 +11,10 @@ if(ENVIRONMENT == 'development') {
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
 } else {
-	$config['dbname'] = 'ead';
-	$config['host'] = 'localhost';
-	$config['dbuser'] = 'root';
-	$config['dbpass'] = '';
+	$config['dbname'] = 'epiz_23085408_ead';
+	$config['host'] = 'sql208.epizy.com';
+	$config['dbuser'] = 'epiz_23085408';
+	$config['dbpass'] = 'vtIRleQcP0L64c8';
 }
 
 ?>
