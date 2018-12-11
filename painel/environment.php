@@ -1,3 +1,3 @@
 <?php
-define("ENVIRONMENT", "online");
+define("ENVIRONMENT", "development");
 ?>

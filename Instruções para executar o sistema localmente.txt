@@ -1,0 +1,14 @@
+1- instale um servidor php, pode ser o WAM ou o XAMP.
+
+2- após ter instalado, dê um ctrl+c na pasta do projeto e vá na pasta 
+www caso o servidor instalado for o WAMP, caso seja o XAMP vá na pasta
+.htdocs e cole a pasta do sistema lá.
+
+3- Start o servidor
+
+4- Abra o seu navegador de preferência e insira a seguinte URL 
+
+Para logar como aluno -> localhost/ead/ -> user aluno@teste.com senha 123
+
+Para logar como professor -> localhost/ead/painel -> user professor@teste.com.br senha 123
+

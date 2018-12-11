@@ -1,0 +1,9 @@
+#banner {
+	width: 30%;
+	height: 200px;
+	position: relative;
+	background: url("../img/fd.jpeg") no-repeat;
+	background-size: 100%;
+	top: 2px;
+	
+}

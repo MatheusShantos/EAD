@@ -14,7 +14,7 @@ VALUES
 	(7,3,1),
 	(8,6,1),
 	(9,7,1),
-	(10,8,2);
+	(10,1,2);
 
 DROP TABLE IF EXISTS `alunos`;
 
@@ -116,10 +116,10 @@ CREATE TABLE `modulos` (
 
 INSERT INTO `modulos` (`id`, `id_curso`, `nome`)
 VALUES
-	(1,1,'Básico'),
-	(2,1,'Intermediário'),
-	(3,1,'Avançado'),
-	(6,1,'Super Avançado');
+	(1,1,'Basico'),
+	(2,1,'Intermediario'),
+	(3,1,'Avancado'),
+	(6,1,'Super Avancado');
 
 DROP TABLE IF EXISTS `questionarios`;
 
@@ -151,7 +151,7 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `email`, `senha`)
 VALUES
-	(1,'suporte@teste.com.br','202cb962ac59075b964b07152d234b70');
+	(1,'professor@teste.com.br','202cb962ac59075b964b07152d234b70');
 
 DROP TABLE IF EXISTS `videos`;
 
